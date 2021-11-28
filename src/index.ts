@@ -17,6 +17,8 @@ api.get('/', (_, res) => {
   res.send('Hey 😎')
 })
 
+api.use(express.json())
+
 api.use((err: any, req: Request, res: Response, next: NextFunction) => {
   console.error(err)
   res.status(500).json({ error: 'Something went wrong' })
