@@ -1,5 +1,5 @@
 {
-  "name": "hackclub-lab-api",
+  "name": "express-api-template",
   "version": "0.0.1",
   "description": "API for the Hack Club Lab",
   "main": "dist/index.js",
