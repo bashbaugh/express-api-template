@@ -1,9 +1,9 @@
 {
   "name": "express-api-template",
   "version": "0.0.1",
-  "description": "API for the Hack Club Lab",
+  "description": "Express API template",
   "main": "dist/index.js",
-  "repository": "https://github.com/bashbaugh/lab-api.git",
+  "repository": "",
   "author": "Benjamin Ashbaugh <hi@benjaminashbaugh.me>",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
